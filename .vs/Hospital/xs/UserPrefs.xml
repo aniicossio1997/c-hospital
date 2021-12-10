@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{316A53F1-0BD0-4777-87B8-53D7331F0C31}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Hospital/Clases/EnumPacienteEstado.cs">
+    <Files>
+      <File FileName="Hospital/Program.cs" Line="19" Column="1" />
+      <File FileName="Hospital/Clases/Paciente.cs" Line="9" Column="9" />
+      <File FileName="Hospital/Clases/ObraSocial.cs" Line="4" Column="1" />
+      <File FileName="Hospital/Clases/Sistema.cs" Line="10" Column="6" />
+      <File FileName="Hospital/Clases/Medico.cs" Line="8" Column="31" />
+      <File FileName="Hospital/Clases/EstadoMedico.cs" Line="8" Column="1" />
+      <File FileName="Hospital/Clases/EnumPacienteEstado.cs" Line="7" Column="9" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Hospital" expanded="True">
+            <Node name="Hospital" expanded="True">
+              <Node name="Clases" expanded="True">
+                <Node name="EnumPacienteEstado.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Hospital PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
