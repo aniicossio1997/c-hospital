@@ -1,0 +1,5 @@
+/home/ana/Projects/Hospital/Hospital/obj/x86/Debug/Hospital.csproj.CoreCompileInputs.cache
+/home/ana/Projects/Hospital/Hospital/bin/Debug/Hospital.exe
+/home/ana/Projects/Hospital/Hospital/bin/Debug/Hospital.pdb
+/home/ana/Projects/Hospital/Hospital/obj/x86/Debug/Hospital.exe
+/home/ana/Projects/Hospital/Hospital/obj/x86/Debug/Hospital.pdb

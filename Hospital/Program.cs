@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using Gtk;
+using Hospital.Clases;
 
 namespace Hospital
 {
@@ -12,7 +14,11 @@ namespace Hospital
                 win.Show();
                 Application.Run();
                 */
-            Console.WriteLine("hola");
+            Console.WriteLine("-----");
+
+            List<Medico> medicos = new List<Medico>();
+            Console.WriteLine(medicos.Count);
+
         }
     }
 }

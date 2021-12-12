@@ -3,11 +3,12 @@ using System.Collections.Generic;
 
 namespace Hospital.Clases
 {
-    public class Sistema
+    class Sistema
     {
-        internal List<Paciente> pacientes;
+        internal Queue<Paciente> pacientes=  new Queue<Paciente>();
 
         internal static Sistema instance;
+        internal List<Medico> medicos= new List<Medico>();
 
         internal Sistema() { }
 
@@ -23,14 +24,38 @@ namespace Hospital.Clases
 
         public void AddPaciente(Paciente paciente)
         {
-            this.pacientes.Add(paciente);
+            this.pacientes.Enqueue(paciente);
 
         }
-        public List<Paciente> GetPacientes(){
+        public Queue<Paciente> GetPacientes(){
 
             return this.pacientes;
         }
-        
+        public bool AtendiendoHaUnPaciente(Paciente paciente, Medico medico)
+        {
+
+            return (medico.IniciarConsulta(paciente));
+        }
+        public Paciente FinalizandoAtencion(Paciente paciente, Medico medico)
+        {
+            paciente.FinalizarConsulta();
+            medico.FinalizarConsulta();
+            return paciente;
+        }
+        public List<Medico> medicosDisponibles()
+        {
+            List<Medico> disponibles = new List<Medico>();
+            this.medicos.ForEach(item => {
+                if (item.estoyDisponible())
+                {
+                    disponibles.Add(item);
+                }
+
+            });
+            return disponibles;
+        }
+
+
 
     }
 }

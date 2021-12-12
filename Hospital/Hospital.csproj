@@ -70,6 +70,8 @@
     <Compile Include="Clases\Medico.cs" />
     <Compile Include="Clases\EstadoMedico.cs" />
     <Compile Include="Clases\EnumPacienteEstado.cs" />
+    <Compile Include="Clases\Consulta.cs" />
+    <Compile Include="Clases\EspecializacionMedico.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Clases\" />
